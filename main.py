@@ -59,7 +59,7 @@ def microsoft(code):
     try:
      r = requests.get(URL, params=Payload, headers=Headers, proxies={"http": proxy, "https": proxy})
     except:
-     r = requests.get(URL, params=Payload, headers=Headers, proxies={"http": proxy, "https": proxy})
+     r = requests.get(URL, params=Payload, headers=Headers)
     if r.status_code == requests.codes.ok:
         print("[" + Fore.BLUE + "-" + Fore.WHITE + "]" + Fore.MAGENTA + "Redeemed Successfully!\n> " + Fore.WHITE)
     else:
