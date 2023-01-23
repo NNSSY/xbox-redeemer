@@ -49,7 +49,7 @@ def microsoft(code):
                'Accept': 'application/json, text/javascript, */*; q=0.01', 
                'Accept-Language': 'en-US,en;q=0.5', 
                'Accept-Encoding': 'gzip, deflate', 
-               'Referer': 'https://www.microsoft.com/uniblends/?client=AccountMicrosoftCom', 
+               'Referer': 'https://www.microsoft.com/', 
                'MS-CV': 'QwpC4ofKMEC+vtuT.1.0.6.7', 
                'Authorization': f'{WLID}', 
                'Origin': 'https://www.microsoft.com',
